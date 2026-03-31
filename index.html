@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <a href="#" class="logo"><span>Gan</span>esh</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="contact-btn">Contact Me</a>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 class="greeting">Welcome!</h3>
+            <h1>I'm <span>Ganesh</span><br>An AI/ML Engineer</h1>
+            <p>A passionate BCA student specializing in Artificial Intelligence and Machine Learning. Proficient in Python, Machine Learning, Deep Learning, Data Science, Neural Networks, and Advanced Algorithms.</p>
+            <div class="btn-box">
+                <button class="btn btn-primary">Hire Me</button>
+                <button class="btn btn-secondary">My Work</button>
+            </div>
+        </div> 
+        <div class="img-box">
+            <img src="passport.jpg" alt="Ganesh Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="1706876358606.jpg" alt="Ganesh About Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>AI/ML <span>Engineer</span></h3>
+            <p>I'm a third-year BCA student with a strong passion for Artificial Intelligence and Machine Learning. I have hands-on experience in developing ML models, deep learning architectures, and data science solutions. I'm committed to solving complex problems using cutting-edge AI technologies and building intelligent systems that drive innovation.</p>
+            <div class="about-details">
+                <p><strong>Branch:</strong> Bachelor of Computer Applications (BCA)</p>
+                <p><strong>Year:</strong> Third Year</p>
+                <p><strong>Specialization:</strong> AI/ML & Data Science</p>
+            </div>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>ML & Deep Learning</h3>
+                <ul class="skill-list">
+                    <li><i class='bx bxl-python'></i> TensorFlow & Keras</li>
+                    <li><i class='bx bx-data'></i> PyTorch</li>
+                    <li>Neural Networks</li>
+                    <li>Computer Vision</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h3>Data Science</h3>
+                <ul class="skill-list">
+                    <li><i class='bx bxl-python'></i> Pandas & NumPy</li>
+                    <li><i class='bx bx-data'></i> Statistical Analysis</li>
+                    <li>Data Visualization</li>
+                    <li>Feature Engineering</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h3>Core Skills</h3>
+                <ul class="skill-list">
+                    <li><i class='bx bxl-python'></i> Python (Expert)</li>
+                    <li>Algorithm Design</li>
+                    <li>Model Optimization</li>
+                    <li>Big Data Processing</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h3>AI/ML</h3>
+                <ul class="skill-list">
+                    <li><i class='bx bxl-python'></i> Machine Learning</li>
+                    <li><i class='bx bx-data'></i> Data Science</li>
+                    <li>Neural Networks</li>
+                    <li>Model Training & Optimization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Recent <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <h3>PathPilot - Route Optimization</h3>
+                <p>Intelligent route optimization system using AI/ML algorithms to find the most efficient paths. Integrates real-time data processing and predictive analytics for navigation.</p>
+                <div class="project-tags">
+                    <span>AI/ML</span>
+                    <span>Python</span>
+                    <span>Optimization</span>
+                    <span>pathfinding</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-form" id="contact">
+        <h2 class="contact-heading">Contact <span>Me</span></h2>
+        <form class="form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Subject" required>
+            </div>
+            <textarea placeholder="Your Message" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Send Message" class="btn btn-primary">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+            <a href="https://linkedin.com" target="_blank"><box-icon type='logo' name='linkedin'></box-icon></a>
+            <a href="https://twitter.com" target="_blank"><box-icon type='logo' name='twitter'></box-icon></a>
+            <a href="https://instagram.com" target="_blank"><box-icon name='instagram-alt' type='logo'></box-icon></a>
+        </div>
+        <ul class="footer-list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Sitemap</a></li>
+        </ul>
+        <p class="copyright">&copy; 2026 Ganesh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+    
+            <p class="copyrights">© 2025  Ganesh  | All Rights resrved</p>
+        </footer>
+    </body>
+    </html>
+</body>
+</html>
