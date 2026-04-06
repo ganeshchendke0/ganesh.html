@@ -418,6 +418,68 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+/* ============ Certificates Section ============ */
+.certificates {
+    padding: 5rem 7%;
+}
+
+.certificates .heading {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.certificates .heading span {
+    color: var(--primary-color);
+}
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.certificate-box {
+    background: var(--light-bg);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.certificate-box:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.2);
+    transform: translateY(-10px);
+}
+
+.certificate-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.certificate-box p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.certificate-tags {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.certificate-tags span {
+    background: rgba(0, 212, 255, 0.2);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid var(--primary-color);
+}
+
 /* ============ Contact Form Section ============ */
 .contact-form {
     padding: 5rem 7%;
@@ -616,6 +678,7 @@ body {
     }
 
     .projects,
+    .certificates,
     .skills,
     .contact-form {
         padding: 3rem 5%;
@@ -661,7 +724,8 @@ body {
     }
 
     .skills-container,
-    .projects-container {
+    .projects-container,
+    .certificates-container {
         grid-template-columns: 1fr;
     }
 
